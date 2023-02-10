@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'MadeTommy';
+}
+
+@font-face {
+    font-family: 'MadeTommy';
+    src: url('../fuentes/MADE\ TOMMY\ Thin_PERSONAL\ USE.otf');
+}
+
+:root{
+    --ColorTexto:#071A19;
+    --ColorPrimario:#BF2315;
+    --ColorSecundario:#F21B07;
+}
+
+
+.square{
+    border-radius:0px;
+
+}
+
+.jumbotron{
+    background-image:linear-gradient(to right, var(--ColorPrimario), #000);
+    color: white;
+}
